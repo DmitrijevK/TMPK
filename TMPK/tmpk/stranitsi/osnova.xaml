@@ -3,10 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="tmpk.stranitsi.osnova">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+        <RelativeLayout>
+            <Label Text="О приложении TMPK Beta 0.3."
+                FontSize="25"
+                   FontAttributes="Bold"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+            <Label Text=
+                   "Данное прииложение было разработано
+                   впервую очередь в практических целях,
+                   а также входе исследовательской работы, 
+                   специально для Таллиннской Махтраской Основной Школы"
+                FontSize="18"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

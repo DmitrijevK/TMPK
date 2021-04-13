@@ -10,7 +10,7 @@ namespace tmpk
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new stranitsi.osnova();
         }
 
         protected override void OnStart()

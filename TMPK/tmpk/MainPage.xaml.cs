@@ -23,6 +23,14 @@ namespace tmpk
         private List<klas> Menulist()
         {
             var spisok = new List<klas>();
+
+            spisok.Add(new klas()
+            {
+                Text = "О Школе",
+                ImageP = "pilt.png",
+                TarPage = typeof(stranitsi.raspisanie)
+            });
+
             spisok.Add(new klas()
             {
                 Text = "Расписание",
@@ -39,7 +47,14 @@ namespace tmpk
 
             spisok.Add(new klas()
             {
-                Text = "Инфо.",
+                Text = "Контакты",
+                ImageP = "pilt.png",
+                TarPage = typeof(stranitsi.kontakti)
+            });
+
+            spisok.Add(new klas()
+            {
+                Text = "О приложении",
                 ImageP = "pilt.png",
                 TarPage = typeof(stranitsi.osnova)
             });
